@@ -12,8 +12,8 @@ beforeEach(seedDatabase)
 test('Should create a new user', async () => {
     const variables = {
         data: {
-            name: 'Andrew',
-            email: 'andrew@example.com',
+            name: 'mohammed',
+            email: 'mohammed@example.com',
             password: 'MyPass123'
         }
     }
@@ -50,8 +50,8 @@ test('Should not login with bad credentials', async () => {
 test('Should not signup user with invalid password', async () => {
     const variables = {
         data: {
-            name: 'Andrew',
-            email: 'andrew@example.com',
+            name: 'mohammed',
+            email: 'mohammed@example.com',
             password: 'pass'
         }
     }

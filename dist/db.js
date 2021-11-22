@@ -5,8 +5,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 var users = [{
     id: '1',
-    name: 'Andrew',
-    email: 'andrew@example.com',
+    name: 'mohammed',
+    email: 'mohammed@example.com',
     age: 27
 }, {
     id: '2',
